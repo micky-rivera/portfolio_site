@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Projects.module.css'
 
-const Projects = () => {
+const Projects = ({data}: ProjectsProps) => {
 
   return (
     <div className={styles.projects}>

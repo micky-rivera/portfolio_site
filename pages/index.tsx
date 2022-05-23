@@ -8,7 +8,7 @@ import Nav from '../components/Nav'
 import Projects from '../components/Projects'
 import Tech from '../components/Tech'
 
-const Home: NextPage = () => {
+const Home = ({ data }: HomeProps) => {
 
   return (
     <div className={styles.container}>
@@ -24,14 +24,28 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <About />
-        <Projects />
+        <Projects data={data} />
         <Tech />
+
+        <footer className={styles.footer}>
+          <h3 className={styles.footer__credit}>Created by Micky Rivera</h3>
+        </footer>
       </main>
 
-      <footer className={styles.footer}>
-      </footer>
     </div>
   )
 }
 
 export default Home
+
+export async function getServerSideProps() {
+
+  const response = await fetch('http://localhost:3000/api/projects');
+  const data = await response.json();
+
+  return {
+    props: {
+      data: data
+    },
+  }
+}
