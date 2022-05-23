@@ -1,0 +1,32 @@
+.nav {
+    background-color: #495057;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .nav__text {
+    width: fit-content;
+    height: 4rem;
+    display: flex;
+  }
+  
+  .nav__name {
+    color: #F8F9FA;
+    text-align: center;
+    width: fit-content;
+    height: 4rem;
+    padding: 1rem;
+  }
+  
+  .nav__title {
+    color: #E9ECEF;
+    text-align: center;
+    width: fit-content;
+    height: 4rem;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+  }

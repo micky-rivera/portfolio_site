@@ -1,0 +1,17 @@
+.projects {
+    padding-top: 5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .projects__title {
+    color: #F8F9FA;
+    margin-bottom: 1rem;
+  }
+  .projects__container {
+    max-width: 50rem;
+    height: 10rem;
+    margin: auto;
+    background-color: #212529;
+    padding: 1rem;
+    border-radius: 20px;
+  }

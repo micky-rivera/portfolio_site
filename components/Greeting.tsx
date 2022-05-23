@@ -1,10 +1,10 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Greeting.module.css'
 
 const Greeting = () => {
 
     const scrollDown = () => {
         window.scrollTo({
-          top: 1100,
+          top: 880,
           behavior: 'smooth'
         });
     };

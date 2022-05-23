@@ -1,0 +1,48 @@
+.greeting {
+    width: 100%;
+    margin: auto;
+    margin-top: 12rem;
+    text-align: center;
+    height: 35rem;
+    animation: fadeIn 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .greeting__greeting {
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: #E9ECEF;
+  }
+  .greeting__title {
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: #F8F9FA;
+  }
+  .greeting__segue {
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: #E9ECEF;
+  }
+  
+  .greeting__downButton {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #495057;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  .greeting__downButton:hover {
+    background-color: #6C757D;
+  }
+  .greeting__downButton:active {
+    background-color: #ADB5BD;
+  }
+  .greeting__downButton svg {
+    padding: 0.8rem;
+    padding-top: 1rem;
+  }

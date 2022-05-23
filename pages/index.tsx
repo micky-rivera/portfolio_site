@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import About from '../components/About'
 import Greeting from '../components/Greeting'
 import Nav from '../components/Nav'
+import Projects from '../components/Projects'
+import Tech from '../components/Tech'
 
 const Home: NextPage = () => {
 
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <About />
+        <Projects />
+        <Tech />
       </main>
 
       <footer className={styles.footer}>
