@@ -5,6 +5,8 @@
     text-align: center;
     height: 35rem;
     animation: fadeIn 1s;
+    position: relative;
+    z-index: 1;
   }
   
   @keyframes fadeIn {

@@ -7,6 +7,7 @@ import Greeting from '../components/Greeting'
 import Nav from '../components/Nav'
 import Projects from '../components/Projects'
 import Tech from '../components/Tech'
+import Globe from '../components/Globe'
 
 const Home = ({ data }: HomeProps) => {
 
@@ -19,6 +20,8 @@ const Home = ({ data }: HomeProps) => {
       </Head>
 
       <Nav />
+
+      <Globe />
 
       <Greeting />
 
