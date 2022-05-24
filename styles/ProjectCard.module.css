@@ -1,0 +1,16 @@
+.projectcard {
+  background-color:#343A40;
+  width: 35rem;
+  margin: auto;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.projectcard__img {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}

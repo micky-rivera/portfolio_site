@@ -42,7 +42,7 @@
   .greeting__downButton:active {
     background-color: #ADB5BD;
   }
-  .greeting__downButton svg {
+  .greeting__downArrow {
     padding: 0.8rem;
     padding-top: 1rem;
   }

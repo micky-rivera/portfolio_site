@@ -14,6 +14,10 @@ declare global {
     interface ProjectsProps {
         data: Projects;
     };
+
+    interface ProjectCardProps {
+        data: Projects;
+    };
     
     interface HomeProps {
         data: Projects;

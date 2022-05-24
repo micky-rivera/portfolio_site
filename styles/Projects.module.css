@@ -9,9 +9,10 @@
   }
   .projects__container {
     max-width: 50rem;
-    height: 10rem;
+    height: fit-content;
     margin: auto;
     background-color: #212529;
     padding: 1rem;
     border-radius: 20px;
+    display: flex;
   }
