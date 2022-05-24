@@ -21,9 +21,9 @@ const Globe = () => {
                 canvas: canvasElement!,
             });
             renderer.setPixelRatio(window.devicePixelRatio);
-            renderer.setSize(canvasElement.offsetWidth, canvasElement.offsetHeight);
+            renderer.setSize(window.innerWidth, window.innerHeight);
             
-            camera.position.setZ(35);
+            camera.position.setZ(25);
             
             const geometry = new THREE.SphereGeometry(15,32,16);
             const material = new THREE.MeshBasicMaterial({
@@ -41,7 +41,7 @@ const Globe = () => {
     
                 renderer.render(scene, camera);
             };
-            
+
             animate();
             init = false;
         }

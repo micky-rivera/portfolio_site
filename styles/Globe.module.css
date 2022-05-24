@@ -1,12 +1,14 @@
 .globe__container {
     width: 100%;
-    height: fit-content;
     position: absolute;
+    top: 4rem;
     z-index: 0;
     overflow: hidden;
 }
 
 .globe__canvas {
-    height: 40rem;
-    width: 80rem;
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin: auto;
 }
