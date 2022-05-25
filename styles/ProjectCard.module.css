@@ -1,15 +1,81 @@
 .projectcard {
-  width: 35rem;
+  width: 100%;
   margin: auto;
   height: fit-content;
   border-radius: 20px;
   padding: 1rem;
+  background-color: rgba(52,58,64,0.9);
 }
 
 .projectcard__img {
-    width: 15rem;
-    height: 15rem;
-    background-color: white;
-    border-radius: 10px;
-    margin: auto;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.projectcard__title {
+  color: #E9ECEF;
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.projectcard__desc {
+  color: #E9ECEF;
+  font-size: 1.5rem;
+  max-width: 30rem;
+  margin: auto;
+}
+
+.projectcard__buttons {
+  height: 5rem;
+  width: 15rem;
+  margin: auto;
+  border: 1px solid #E9ECEF;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.projectcard__github {
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+  padding-top: 0.4rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.projectcard__github:hover {
+  background-color: rgba(108,117,125,0.9);
+}
+.projectcard__github:active {
+  background-color: rgba(173, 181, 189,0.9);
+}
+
+.projectcard__githubImg {
+  width: 4rem;
+  margin: auto;
+}
+
+.projectcard__demo {
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+  padding-top: 0.7rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.projectcard__demo:hover {
+  background-color: rgba(108,117,125,0.9);
+}
+.projectcard__demo:active {
+  background-color: rgba(173, 181, 189,0.9);
+}
+
+.projectcard__demoImg {
+  width: 3.5rem;
+  margin: auto;
 }
