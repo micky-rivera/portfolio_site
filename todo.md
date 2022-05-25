@@ -1,6 +1,4 @@
-- Create the texture for the globe
-- Apply texture to globe
-- Add fog to globe
+- create high resolution texture for globe
 
 - create individual Project component
 - go through api data and dynamically create the project cards

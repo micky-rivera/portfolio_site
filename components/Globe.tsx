@@ -35,7 +35,7 @@ const Globe = () => {
 
             const globeTexture = new THREE.TextureLoader().load('/globe.png');
             
-            const geometry = new THREE.SphereGeometry(15,32,16);
+            const geometry = new THREE.SphereGeometry(15,50,50);
             /* const material = new THREE.MeshBasicMaterial({
                 color: 0xFFFFFF,
                 wireframe: true
