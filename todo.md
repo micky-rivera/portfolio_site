@@ -1,11 +1,9 @@
-- create high resolution texture for globe
-
-- finish individual Project component
-- go through api data and dynamically create the project cards
-
 - get svgs for all technologies
 - receive their names from api
 - display them
+
+- create high resolution texture for globe
+
 
 - BUGS:
     - mobile nav bar fucks with the formatting of globe

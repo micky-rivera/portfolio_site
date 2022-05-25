@@ -5,6 +5,8 @@
   border-radius: 20px;
   padding: 1rem;
   background-color: rgba(52,58,64,0.9);
+  flex-basis: 100%;
+  margin-bottom: 1rem;
 }
 
 .projectcard__img {
@@ -13,6 +15,12 @@
   background-color: white;
   border-radius: 10px;
   margin: auto;
+}
+
+.projectcard__imgtag {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10px;
 }
 
 .projectcard__title {

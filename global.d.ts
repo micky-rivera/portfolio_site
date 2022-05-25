@@ -5,8 +5,9 @@ declare global {
     type Project = {
         title: string,
         desc: string,
-        imgUrl: string,
-        gitUrl: string,
+        img: string,
+        githubUrl: string,
+        demoUrl: string
     };
 
     type Projects = Project[];
@@ -16,7 +17,7 @@ declare global {
     };
 
     interface ProjectCardProps {
-        data: Projects;
+        project: Project;
     };
     
     interface HomeProps {

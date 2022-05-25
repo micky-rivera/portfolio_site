@@ -8,6 +8,7 @@
   .projects__title {
     color: #F8F9FA;
     margin-bottom: 1rem;
+    text-shadow: 0px 0px 5px black;
   }
   .projects__container {
     max-width: 50rem;
@@ -15,4 +16,5 @@
     margin: auto;
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
   }

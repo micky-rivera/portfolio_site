@@ -8,7 +8,9 @@ const Projects = ({data}: ProjectsProps) => {
     <div className={styles.projects}>
         <h1 className={styles.projects__title}>Some of My Projects</h1>
         <div className={styles.projects__container}>
-            <ProjectCard data={data} />
+            {data.map((project: Project, index: number)=> (
+              <ProjectCard project={project} key={index} />
+            ))}
         </div>
     </div>
   )
