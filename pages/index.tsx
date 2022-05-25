@@ -9,7 +9,7 @@ import Projects from '../components/Projects'
 import Tech from '../components/Tech'
 import Globe from '../components/Globe'
 
-const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "";
+const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://portfolio-micky.vercel.app/";
 
 const Home = ({ data }: HomeProps) => {
 
@@ -45,8 +45,7 @@ export default Home
 
 export async function getServerSideProps() {
 
-  //const response = await fetch(`${url}/api/projects`);
-  const response = await fetch(`/api/projects`);
+  const response = await fetch(`${url}/api/projects`);
   const data = await response.json();
 
   return {
