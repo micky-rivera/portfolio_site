@@ -22,15 +22,25 @@ const Globe = () => {
             });
             renderer.setPixelRatio(window.devicePixelRatio);
             renderer.setSize(window.innerWidth, window.innerHeight);
+
+            window.addEventListener('resize', () => {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+                renderer.setSize(width, height);
+                camera.aspect = width/height;
+                camera.updateProjectionMatrix();
+            });
             
-            camera.position.setZ(25);
+            camera.position.setZ(30);
+
+            const globeTexture = new THREE.TextureLoader().load('/globe.png');
             
             const geometry = new THREE.SphereGeometry(15,32,16);
-            const material = new THREE.MeshBasicMaterial({
+            /* const material = new THREE.MeshBasicMaterial({
                 color: 0xFFFFFF,
                 wireframe: true
-            });
-            const sphere = new THREE.Mesh(geometry,material);
+            }); */
+            const sphere = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({map:globeTexture, transparent: true}));
             
             scene.add(sphere);
     
