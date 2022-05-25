@@ -9,7 +9,7 @@ import Projects from '../components/Projects'
 import Tech from '../components/Tech'
 import Globe from '../components/Globe'
 
-const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "";
+const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://portfolio-site-fqcuzv04y-micky-rivera.vercel.app/";
 
 const Home = ({ data }: HomeProps) => {
 
