@@ -15,12 +15,12 @@ const ProjectCard = ({project}: ProjectCardProps) => {
       <p className={styles.projectcard__title}>{project.title}</p>
       <p className={styles.projectcard__desc}>{project.desc}</p>
       <div className={styles.projectcard__buttons}>
-        <a className={styles.projectcard__github} target='_blank' href={project.githubUrl}>
+        <a className={styles.projectcard__github} target='_blank' rel="noreferrer" href={project.githubUrl}>
           <div className={styles.projectcard__githubImg}>
             <Image src={require('../assets/github.svg')}/>
           </div>
         </a>
-        <a className={styles.projectcard__demo} target='_blank' href={project.demoUrl}>
+        <a className={styles.projectcard__demo} target='_blank' rel="noreferrer" href={project.demoUrl}>
           <div className={styles.projectcard__demoImg}>
             <Image src={require('../assets/play-button.svg')}/>
           </div>
