@@ -11,7 +11,7 @@ const About = () => {
             <div className={styles.about__img}>
                 <Image src={require('../assets/micky.rivera.png')}/>
             </div>
-            <p className={styles.about__text}>I'm Micky, a Dominican American living and working in Stockholm. I'm passionate about rock climbing, the outdoors, and of course, tech.</p>
+            <p className={styles.about__text}>I&apos;m Micky, a Dominican American living and working in Stockholm. I&apos;m passionate about rock climbing, the outdoors, and of course, tech.</p>
         </div>
     </div>
   )

@@ -12,7 +12,7 @@ const Greeting = () => {
 
   return (
     <div className={styles.greeting}>
-        <h2 className={styles.greeting__greeting}>Hey, I'm Micky!</h2>
+        <h2 className={styles.greeting__greeting}>Hey, I&apos;m Micky!</h2>
         <h1 className={styles.greeting__title}>a Full-Stack JavaScript Developer</h1>
         <h2 className={styles.greeting__segue}>Check out more info below!</h2>
 
