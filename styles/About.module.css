@@ -2,6 +2,8 @@
     padding-top: 10rem;
     text-align: center;
     width: 100%;
+    position: relative;
+    z-index: 1;
   }
   .about__title {
     color: #F8F9FA;
@@ -10,7 +12,7 @@
   .about__container {
     max-width: 50rem;
     margin: auto;
-    background-color: #212529;
+    background-color: rgba(52,58,64,0.9);
     padding: 1rem;
     border-radius: 20px;
   }

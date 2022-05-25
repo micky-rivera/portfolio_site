@@ -1,9 +1,10 @@
 .globe__container {
     width: 100%;
-    position: absolute;
-    top: -1rem;
+    position: sticky;
     z-index: 0;
     overflow: hidden;
+    top: 0rem;
+    margin-top: -4rem;
 }
 
 .globe__canvas {

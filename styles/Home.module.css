@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   height: fit-content;
-  background-color:#343A40;
+  background-color:#212529;
   z-index: 1;
 }
 
@@ -9,6 +9,8 @@
   height: fit-content;
   background-color: #495057;
   margin-top: 5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .footer__credit {
