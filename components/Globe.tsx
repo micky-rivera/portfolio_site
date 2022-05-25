@@ -40,9 +40,15 @@ const Globe = () => {
                 color: 0xFFFFFF,
                 wireframe: true
             }); */
-            const sphere = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({map:globeTexture, transparent: true}));
+            const sphere = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({
+                map:globeTexture,
+                transparent: true,
+                side: THREE.DoubleSide
+            }));
             
             scene.add(sphere);
+
+            scene.fog = new THREE.Fog(0x212529, 0, 60);
     
             const animate = () => {
                 requestAnimationFrame(animate);

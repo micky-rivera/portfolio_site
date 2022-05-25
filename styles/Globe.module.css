@@ -1,6 +1,7 @@
 .globe__container {
     width: 100%;
     position: absolute;
+    top: -1rem;
     z-index: 0;
     overflow: hidden;
 }
