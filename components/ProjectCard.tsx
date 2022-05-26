@@ -4,7 +4,6 @@ import Projects from './Projects';
 
 const ProjectCard = ({project}: ProjectCardProps) => {
 
-  //const imageUrl = `../assets/${project.img}`;
   const imageUrl = `/${project.img}`;
 
   return (
