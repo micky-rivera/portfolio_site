@@ -1,4 +1,4 @@
-const data = [
+const projectData = [
     {
         title: '</Salt> Guess-Who',
         desc: 'Graduation project for </Salt>. Created in seven coding days by myself and three other devs. It is an online real-time Guess-Who game with </Salt> folks as the characters!',
@@ -29,4 +29,4 @@ const data = [
     },
 ];
 
-export default data;
+export default projectData;

@@ -29,8 +29,8 @@ const Home = ({ data }: HomeProps) => {
 
       <main className={styles.main}>
         <About />
-        <Projects data={data} />
-        <Tech />
+        <Projects data={data.projects} />
+        <Tech tech={data.tech} />
 
         <footer className={styles.footer}>
           <h3 className={styles.footer__credit}>Created by Micky Rivera</h3>
@@ -46,7 +46,7 @@ export default Home
 export async function getServerSideProps() {
 
   const response = await fetch(`${url}/api/projects`);
-  const data = await response.json();
+  const data: AppData = await response.json();
 
   return {
     props: {

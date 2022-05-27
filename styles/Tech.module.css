@@ -12,9 +12,16 @@
 }
 .tech__container {
   max-width: 50rem;
-  height: 10rem;
+  height: fit-content;
   margin: auto;
   background-color: rgba(52,58,64,0.9);
   padding: 1rem;
   border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech__icon {
+  width: 5rem;
+  padding: 1rem;
 }

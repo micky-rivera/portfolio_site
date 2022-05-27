@@ -1,9 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import data from './data'
+import projectData from './projectData'
+import techData from './techData'
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Projects>
+  res: NextApiResponse<AppData>
 ) {
-  res.status(200).json(data);
+  const response = {
+    projects: projectData,
+    tech: techData
+  };
+  res.status(200).json(response);
 }

@@ -10,6 +10,8 @@ declare global {
         demoUrl: string
     };
 
+    type Tech = string;
+
     type Projects = Project[];
 
     interface ProjectsProps {
@@ -21,6 +23,15 @@ declare global {
     };
     
     interface HomeProps {
-        data: Projects;
+        data: AppData;
+    };
+
+    interface TechProps {
+        tech: Tech[]
+    }
+
+    interface AppData {
+        projects: Projects,
+        tech: Tech[]
     };
 };
