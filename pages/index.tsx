@@ -6,7 +6,6 @@ import About from '../components/About'
 import Greeting from '../components/Greeting'
 import Nav from '../components/Nav'
 import Projects from '../components/Projects'
-import Tech from '../components/Tech'
 import Globe from '../components/Globe'
 
 const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://portfolio-micky.vercel.app/";
@@ -29,8 +28,7 @@ const Home = ({ data }: HomeProps) => {
 
       <main className={styles.main}>
         <About />
-        <Projects data={data.projects} />
-        <Tech tech={data.tech} />
+        <Projects data={data} />
 
         <footer className={styles.footer}>
           <h3 className={styles.footer__credit}>Created by Micky Rivera</h3>
@@ -46,7 +44,7 @@ export default Home
 export async function getServerSideProps() {
 
   const response = await fetch(`${url}/api/projects`);
-  const data: AppData = await response.json();
+  const data: Projects = await response.json();
 
   return {
     props: {

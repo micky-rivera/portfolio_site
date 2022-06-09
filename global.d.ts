@@ -25,13 +25,4 @@ declare global {
     interface HomeProps {
         data: AppData;
     };
-
-    interface TechProps {
-        tech: Tech[]
-    }
-
-    interface AppData {
-        projects: Projects,
-        tech: Tech[]
-    };
 };
