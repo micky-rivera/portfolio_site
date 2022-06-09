@@ -23,7 +23,7 @@ const projectData = [
     {
         title: 'Portfolio',
         desc: "You're looking at it!",
-        githubUrl: 'https://github.com/micky-rivera/portfolio',
+        githubUrl: 'https://github.com/micky-rivera/portfolio_site',
         demoUrl: 'https://portfolio-micky.herokuapp.com',
         img: 'portfolio.png',
     },
