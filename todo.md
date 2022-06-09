@@ -1,5 +1,7 @@
 todo:
-- create contact section
+- add form to contact me section
+
+- form should send an email to me
 
 backlog:
 - create high resolution texture for globe

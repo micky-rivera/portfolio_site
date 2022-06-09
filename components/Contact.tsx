@@ -8,7 +8,16 @@ const Contact = () => {
         <h1 className={styles.contact__title}>Get In Touch</h1>
         <div className={styles.contact__container}>
             <div className={styles.contact__content}>
-                <p>Email form goes here</p>
+                <form className={styles.contact__form}
+                action='https://formsubmit.co/micky.rivera@appliedtechnology.se'
+                method='POST'
+                >
+                    <input type='text' name='name' required/>
+                    <br></br>
+                    <input type='email' name='email' required/>
+                    <br></br>
+                    <button className={styles.contact__submit}>Send</button>
+                </form>
             </div>
         </div>
     </div>
