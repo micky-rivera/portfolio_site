@@ -1,12 +1,8 @@
 todo:
-- add form to contact me section
-
-- form should send an email to me
+- dynamic mobile nav bar changes the formatting of globe
 
 backlog:
 - create high resolution texture for globe
-
-- dynamic mobile nav bar changes the formatting of globe
 
 - globe should be small on mobile, looks weird when too big
 

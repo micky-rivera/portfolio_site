@@ -14,9 +14,64 @@
 }
 
 .contact__container {
-    height: 10rem;
+    height: fit-content;
     max-width: 50rem;
     background-color: rgba(52,58,64,0.9);
     border-radius: 20px;
     margin: auto;
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+.contact__label {
+    padding: 0.5rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #E9ECEF;
+}
+
+.contact__name {
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #E9ECEF;
+    background-color: rgba(0,0,0,0);
+    color: #E9ECEF;
+    font-size: 1rem;
+}
+
+.contact__email {
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #E9ECEF;
+    background-color: rgba(0,0,0,0);
+    color: #E9ECEF;
+    font-size: 1rem;
+}
+
+.contact__message {
+    resize: none;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: 1px solid #E9ECEF;
+    background-color: rgba(0,0,0,0);
+    color: #E9ECEF;
+    font-size: 1rem;
+}
+
+.contact__submit {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #E9ECEF;
+    color: #E9ECEF;
+    font-size: 1rem;
+}
+
+.contact__submit:hover {
+  background-color: rgba(108,117,125,0.9);
 }
