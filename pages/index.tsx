@@ -7,6 +7,7 @@ import Greeting from '../components/Greeting'
 import Nav from '../components/Nav'
 import Projects from '../components/Projects'
 import Globe from '../components/Globe'
+import Contact from '../components/Contact'
 
 const url = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://portfolio-micky.vercel.app/";
 
@@ -29,6 +30,7 @@ const Home = ({ data }: HomeProps) => {
       <main className={styles.main}>
         <About />
         <Projects data={data} />
+        <Contact />
 
         <footer className={styles.footer}>
           <h3 className={styles.footer__credit}>Created by Micky Rivera</h3>

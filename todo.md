@@ -1,5 +1,5 @@
 todo:
-- remove tech section and tech assets
+- create contact section
 
 backlog:
 - create high resolution texture for globe
